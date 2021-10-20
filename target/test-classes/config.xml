@@ -5,11 +5,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
    <bean class="org.example.Student" name="student1">
-      <property name="sid">
-          <value>100</value>
-      </property>
-       <property name="name">
-           <value>Manish</value>
-       </property>
+<!--      <property name="sid">-->
+<!--          <value>100</value>-->
+<!--      </property>-->
+<!--       <property name="name">-->
+<!--           <value>Manish</value>-->
+<!--       </property>-->
+       <property name="sid" value="101"></property>
+       <property name="name" value="Manish"></property>
+
+
    </bean>
+
 </beans>
