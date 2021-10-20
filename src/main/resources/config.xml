@@ -73,4 +73,9 @@
         <constructor-arg value="1" type="int" index="1"></constructor-arg>
         <constructor-arg value="3" type="int" index="0"></constructor-arg>
     </bean>
+    <bean class="org.example.ConstructerInjection.Employee" name="emp1" init-method="init" destroy-method="destroy">
+        <property name="empId" value="101"></property>
+        <property name="name" value="Manish"></property>
+        <property name="email" value="manish@gmail.com"></property>
+    </bean>
 </beans>
